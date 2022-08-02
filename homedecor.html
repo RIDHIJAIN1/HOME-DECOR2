@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME DECOR SERVICES INDIA/ homedecor.com</title>
+    <link rel="stylesheet" href="clients/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balthazar&family=Pacifico&family=Rampart+One&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* CSS Variables */
+      :root {
+        --navbar-height: 59px;
+      }
+
+      /* Navigation bar */
+      #navbar {
+        display: flex;
+        align-items: center;
+      }
+
+      /* Navigation Bar: Logo and image */
+      #logo {
+        margin: 34px 45px;
+      }
+
+      #logo img {
+        margin: 10px 40px;
+        height: 56px;
+      }
+
+      #navbar {
+        position: relative;
+      }
+
+      #navbar ul {
+        display: flex;
+        list-style: none;
+      }
+
+      #navbar ::before {
+        content: "";
+        background-color: gray;
+        position: absolute;
+        height: 50%;
+        width: 100%;
+        z-index: -1;
+      }
+
+      #navbar ul li {
+        color: black font-size- 1.1rem;
+      }
+
+      #navbar ul li a {
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+      }
+
+      #navbar ul li a:hover {
+        background-color: white;
+        color: black;
+      }
+
+      /* Home section */
+      #HOME {
+        display: flex;
+        flex-direction: column;
+        padding: 3px 200px;
+        justify-content: center;
+        align-items: center;
+        height: 633px;
+      }
+
+      #HOME::before {
+        content: "";
+
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.89;
+        opacity: 0.89;
+        background: url(../liv.webp) no-repeat center center/cover;
+      }
+
+      #HOME h1 {
+        color: rgb(46, 45, 45);
+        text-align: center;
+        font-size: 3rem;
+        font-family: "Rampart One", cursive;
+      }
+
+      #HOME p {
+        color: rgb(46, 45, 45);
+        text-align: center;
+        font-size: 1rem;
+        font-family: "Bangers", cursive;
+      }
+
+      /* Services section */
+      #Services {
+        margin: 34px;
+        display: flex;
+      }
+
+      #Services .box img{
+        border: 2px solid brown;
+        padding: 0px;
+        height: 160px !important;
+        width: 200px !important;
+      }
+
+      /* #Services.box img {
+        height: 160px !important;
+        width: 200px !important;
+      } */
+
+      /* utility classes */
+      .h-primary {
+        font-size: 2.8rem;
+        padding: 12px;
+      }
+
+      .h-secondary {
+        font-size: 2.8rem;
+        padding: 12px;
+      }
+
+      .btn {
+        padding: 6px 20px;
+        border: 2px solid white;
+        background-color: rgba(44, 42, 42, 0.528);
+        color: aliceblue;
+        margin: 17px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      /* Navigation Bar: List styling */
+    </style>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="logo.png" alt="homedecor.com" />
+      </div>
+      <ul>
+        <li class="item"><a href="#">HOME</a></li>
+        <li class="item"><a href="#">SERVICES</a></li>
+        <li class="item"><a href="#">ABOUT US</a></li>
+        <li class="item"><a href="#">CONTACT US</a></li>
+      </ul>
+    </nav>
+    <section id="HOME">
+      <h1 class="h-primary">Welcome To HomeDecorServices</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+        ratione enim minima mollitia sit.
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button class="btn">Order services</button>
+    </section>
+
+    <section class="services-container">
+      <h1 class="h-primarycentre">Our services</h1>
+      <div id="Services">
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/originals/dc/1c/c4/dc1cc4ddf7cf146020cf97044fc4a81e.jpg"
+            alt=""
+        
+          />
+
+          <h2 class="h-secondary center">Lifestyle upbringing</h2>
+          <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+            quis? Nesciunt officia suscipit voluptate recusandae voluptatem
+            deserunt magnam tenetur, ab exercitationem. Mollitia sint molestiae
+            magni nemo numquam. Tempore ad illum doloremque atque temporibus
+            rem.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/originals/dc/1c/c4/dc1cc4ddf7cf146020cf97044fc4a81e.jpg"
+            alt=""
+          />
+
+          <h2 class="h-secondary center">Lifestyle upbringing</h2>
+          <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+            quis? Nesciunt officia suscipit voluptate recusandae voluptatem
+            deserunt magnam tenetur, ab exercitationem. Mollitia sint molestiae
+            magni nemo numquam. Tempore ad illum doloremque atque temporibus
+            rem.
+          </p>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/originals/dc/1c/c4/dc1cc4ddf7cf146020cf97044fc4a81e.jpg"
+            alt=""
+          />
+
+          <h2 class="h-secondary center">Lifestyle upbringing</h2>
+          <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+            quis? Nesciunt officia suscipit voluptate recusandae voluptatem
+            deserunt magnam tenetur, ab exercitationem. Mollitia sint molestiae
+            magni nemo numquam. Tempore ad illum doloremque atque temporibus
+            rem.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
